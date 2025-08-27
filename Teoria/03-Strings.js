@@ -22,7 +22,7 @@ console.log(greeting[0]);  // res = g
 console.log(greeting.toUpperCase()); //Mayusculas
 console.log(greeting.toLowerCase()); //Minusculas
 console.log(greeting.indexOf("Hola")); //Indice desde donde comienza el string
-console.log(greeting.includes("Hola")); //Te dice si la palabra esta en el string (retorna un bool) 
+console.log(greeting.includes("Hola")); //Te dice si la palabra esta en el string (retorna un bool) (Tambien funciona para arrays)
 console.log(greeting.slice(0,10)); // Corta una seccion del string y te lo devuelve
 console.log(greeting.replace("Hola","Adios")) // Reemplaza la palabra "Hola" por "Adios", solo reemplaza la primera ocurrencia que encuentre no todas si hay la misma en el mismo string.
 
